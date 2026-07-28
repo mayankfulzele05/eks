@@ -27,7 +27,7 @@ version = "~> 21.0"
     example = {
       # Starting on 1.30, AL2023 is the default AMI type for EKS managed node groups
       
-      instance_types = ["t3.medium"]
+      instance_types = ["c7i-flex.large"]
 
       min_size     = 2
       max_size     = 3
